@@ -1,18 +1,1531 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js" lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Chirag Patel</title>
+    <meta name="AdsBot-Google" content="noindex follow" />
+    <meta name="description" content="Chirag Patel">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png" />
+
+    <!-- CSS (Font, Vendor, Icon, Plugins & Style CSS files) -->
+
+    <!-- Font CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Syne:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Vendor CSS (Bootstrap & Icon Font) -->
+    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
+
+    <!-- Plugins CSS (All Plugins Files) -->
+    <link rel="stylesheet" href="assets/css/plugins/aos.css">
+    <link rel="stylesheet" href="assets/css/plugins/swiper-bundle.min.css">
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="assets/css/pages/home.css">
+
 </head>
-<body>
-  <header>
-    <h1>Welcome to My Portfolio</h1>
-    <p>I'm an iOS Developer</p>
-  </header>
-  <footer>
-    <p>Contact me at: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
-  </footer>
+
+<body class="dark-paragraph dark-bg bg-dark-tab">
+    <div class="overflow-x-hidden">
+        <!-- Header start -->
+
+        <header id="sticky-header" class="header position-absolute left-0 top-0 w-100 z-3">
+            <div class="d-flex justify-content-between header-inner">
+
+                <div class="header-border-bottom d-flex align-items-center justify-content-between flex-grow-1">
+
+                    <a href="index.html">
+                        <img src="assets/images/logo/logo-dark.png" alt="logo">
+                    </a>
+
+                    <!-- Link Start -->
+                    <a href="contact.html"
+                        class="d-flex align-items-center flex-wrap fw-bold text-dark lh-1 contact-link hover-text-white">Let’s
+                        Talk
+                        <span class="animate-arrow-up">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7 17L17 7" stroke="currentColor" stroke-opacity="0.9" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M7 7H17V17" stroke="currentColor" stroke-opacity="0.9" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </span>
+                    </a>
+                    <!-- Link End -->
+                </div>
+
+                <!-- Button Start -->
+                <button id="offcanvas-toggle" class="bg-dark border-0 offcanvas-toggle" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvas" aria-controls="offcanvas">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="3" y="8" width="18" height="2" fill="white" />
+                        <rect x="3" y="14" width="18" height="2" fill="white" />
+                    </svg>
+
+                </button>
+                <!-- Button End -->
+
+            </div>
+        </header>
+
+
+        <!-- offcanvas-menu start -->
+        <div id="offcanvas"
+            class="offcanvas offcanvas-end bg-dark d-flex flex-wrap flex-column justify-content-between">
+            <!-- close button start -->
+
+            <div>
+                <div class="d-flex flex-wrap justify-content-between align-items-center offcanvas-header">
+                    <a href="index.html">
+                        <img src="assets/images/logo/logo-light.png" alt="">
+                    </a>
+                    <button id="offcanvas-close" class="offcanvas-close bg-primary border-0" data-bs-dismiss="offcanvas"
+                        aria-label="Close">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M19.2803 4.71967C19.5732 5.01256 19.5732 5.48744 19.2803 5.78033L5.78033 19.2803C5.48744 19.5732 5.01256 19.5732 4.71967 19.2803C4.42678 18.9874 4.42678 18.5126 4.71967 18.2197L18.2197 4.71967C18.5126 4.42678 18.9874 4.42678 19.2803 4.71967Z"
+                                fill="white" />
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M4.71967 4.71967C5.01256 4.42678 5.48744 4.42678 5.78033 4.71967L19.2803 18.2197C19.5732 18.5126 19.5732 18.9874 19.2803 19.2803C18.9874 19.5732 18.5126 19.5732 18.2197 19.2803L4.71967 5.78033C4.42678 5.48744 4.42678 5.01256 4.71967 4.71967Z"
+                                fill="white" />
+                        </svg>
+                    </button>
+                </div>
+
+                <!-- close button end -->
+
+                <!-- offcanvas-menu start -->
+
+                <nav class="offcanvas-nav d-flex flex-wrap flex-column justify-content-between">
+                    <ul class="offcanvas-menu p-0 list-unstyled">
+                        <li class="offcanvas-menu-item">
+                            <a href="index.html"
+                                class="text-white text-xl fw-bold font-Syne leading-none d-flex flex-wrap align-items-center justify-content-between offcanvas-menu-link">Home
+                                <span class="d-inline-block animate-arrow-up">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7 17L17 7" stroke="currentColor" stroke-opacity="0.9" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"></path>
+                                        <path d="M7 7H17V17" stroke="currentColor" stroke-opacity="0.9" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"></path>
+                                    </svg>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="offcanvas-menu-item">
+                            <a href="about.html"
+                                class="text-white text-xl fw-bold font-Syne leading-none d-flex flex-wrap align-items-center justify-content-between offcanvas-menu-link">About
+                                <span class="d-inline-block animate-arrow-up">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7 17L17 7" stroke="currentColor" stroke-opacity="0.9" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"></path>
+                                        <path d="M7 7H17V17" stroke="currentColor" stroke-opacity="0.9" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"></path>
+                                    </svg>
+                                </span>
+                            </a>
+
+                        </li>
+                        <li class="offcanvas-menu-item">
+                            <a href="projects.html"
+                                class="text-white text-xl fw-bold font-Syne leading-none d-flex flex-wrap align-items-center justify-content-between offcanvas-menu-link">Project
+                                <span class="d-inline-block animate-arrow-up">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7 17L17 7" stroke="currentColor" stroke-opacity="0.9" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"></path>
+                                        <path d="M7 7H17V17" stroke="currentColor" stroke-opacity="0.9" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"></path>
+                                    </svg>
+                                </span>
+                            </a>
+                        </li>
+
+
+                        <li class="offcanvas-menu-item">
+                            <a href="contact.html"
+                                class="text-white text-xl fw-bold font-Syne leading-none d-flex flex-wrap align-items-center justify-content-between offcanvas-menu-link">Contact
+                                <span class="d-inline-block animate-arrow-up">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7 17L17 7" stroke="currentColor" stroke-opacity="0.9" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"></path>
+                                        <path d="M7 7H17V17" stroke="currentColor" stroke-opacity="0.9" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"></path>
+                                    </svg>
+                                </span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </nav>
+
+            </div>
+
+
+            <nav class="pb-10">
+                <ul class="d-flex flex-wrap gap-x-4 align-items-center offcanvas-social-links p-0  list-unstyled">
+                    <li><a href="#" class="text-white transition-all">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M7.443 5.3501C8.082 5.3501 8.673 5.4001 9.213 5.5481C9.754 5.6471 10.197 5.8451 10.59 6.0921C10.984 6.3401 11.279 6.6861 11.475 7.1311C11.672 7.5761 11.771 8.1211 11.771 8.7141C11.771 9.4071 11.623 10.0001 11.279 10.4451C10.984 10.8911 10.492 11.2861 9.902 11.5831C10.738 11.8311 11.377 12.2761 11.771 12.8701C12.164 13.4631 12.41 14.2051 12.41 15.0461C12.41 15.7391 12.262 16.3321 12.016 16.8271C11.771 17.3221 11.377 17.7671 10.934 18.0641C10.4528 18.3824 9.92083 18.6164 9.361 18.7561C8.771 18.9051 8.181 19.0041 7.591 19.0041H1V5.3501H7.443ZM7.049 10.8901C7.59 10.8901 8.033 10.7421 8.377 10.4951C8.721 10.2481 8.869 9.8021 8.869 9.2581C8.869 8.9611 8.819 8.6651 8.721 8.4671C8.623 8.2691 8.475 8.1201 8.279 7.9721C8.082 7.8731 7.885 7.7741 7.639 7.7251C7.393 7.6751 7.148 7.6751 6.852 7.6751H4V10.8911H7.05L7.049 10.8901ZM7.197 16.7281C7.492 16.7281 7.787 16.6781 8.033 16.6291C8.279 16.5791 8.525 16.4811 8.721 16.3321C8.92138 16.1873 9.08903 16.002 9.213 15.7881C9.311 15.5411 9.41 15.2441 9.41 14.8981C9.41 14.2051 9.213 13.7111 8.82 13.3641C8.426 13.0671 7.885 12.9191 7.246 12.9191H4V16.7291L7.197 16.7281ZM16.689 16.6781C17.082 17.0741 17.672 17.2721 18.459 17.2721C19 17.2721 19.492 17.1241 19.885 16.8771C20.279 16.5801 20.525 16.2831 20.623 15.9871H23.033C22.639 17.1731 22.049 18.0141 21.263 18.5591C20.475 19.0531 19.541 19.3501 18.41 19.3501C17.6864 19.3523 16.9688 19.218 16.295 18.9541C15.6887 18.7267 15.148 18.353 14.721 17.8661C14.2643 17.4107 13.9267 16.8498 13.738 16.2331C13.492 15.5901 13.393 14.8981 13.393 14.1061C13.393 13.3641 13.492 12.6721 13.738 12.0281C13.9749 11.4085 14.3252 10.8384 14.771 10.3471C15.2201 9.88594 15.7543 9.51613 16.344 9.2581C17.0007 8.99416 17.7022 8.85969 18.41 8.8621C19.246 8.8621 19.984 9.0111 20.623 9.3571C21.263 9.7031 21.754 10.0991 22.147 10.6931C22.541 11.2371 22.837 11.8801 23.033 12.5731C23.131 13.2651 23.18 13.9581 23.131 14.7491H16C16 15.5411 16.295 16.2831 16.689 16.6791V16.6781ZM19.787 11.4841C19.443 11.1381 18.902 10.9401 18.262 10.9401C17.82 10.9401 17.475 11.0401 17.18 11.1881C16.885 11.3361 16.689 11.5341 16.492 11.7321C16.311 11.9234 16.1912 12.1643 16.148 12.4241C16.098 12.6721 16.049 12.8701 16.049 13.0671H20.475C20.377 12.3251 20.131 11.8311 19.787 11.4841ZM15.459 6.2901H20.967V7.6261H15.46V6.2901H15.459Z"
+                                    fill="currentColor" fill-opacity="0.9"></path>
+                            </svg>
+
+                        </a></li>
+                    <li><a href="#" class="text-white transition-all"><svg width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M6.94043 5.00002C6.94017 5.53046 6.7292 6.03906 6.35394 6.41394C5.97868 6.78883 5.46986 6.99929 4.93943 6.99902C4.409 6.99876 3.90039 6.78779 3.52551 6.41253C3.15062 6.03727 2.94016 5.52846 2.94043 4.99802C2.9407 4.46759 3.15166 3.95899 3.52692 3.5841C3.90218 3.20922 4.411 2.99876 4.94143 2.99902C5.47186 2.99929 5.98047 3.21026 6.35535 3.58552C6.73024 3.96078 6.9407 4.46959 6.94043 5.00002ZM7.00043 8.48002H3.00043V21H7.00043V8.48002ZM13.3204 8.48002H9.34043V21H13.2804V14.43C13.2804 10.77 18.0504 10.43 18.0504 14.43V21H22.0004V13.07C22.0004 6.90002 14.9404 7.13002 13.2804 10.16L13.3204 8.48002Z"
+                                    fill="currentColor" fill-opacity="0.9"></path>
+                            </svg>
+                        </a></li>
+                    <li><a href="#" class="text-white transition-all"><svg width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M19.989 11.572C19.907 9.99792 19.3596 8.4836 18.416 7.221C18.1285 7.53061 17.8212 7.82123 17.496 8.091C16.4969 8.92086 15.3805 9.5982 14.183 10.101C14.35 10.451 14.503 10.79 14.638 11.11V11.113C14.665 11.174 14.688 11.231 14.732 11.342L14.749 11.382C16.262 11.212 17.858 11.275 19.405 11.485C19.611 11.512 19.805 11.541 19.989 11.572ZM10.604 4.122C11.5786 5.49516 12.4772 6.92062 13.296 8.392C14.519 7.91 15.53 7.302 16.344 6.625C16.674 6.351 16.938 6.093 17.14 5.87C15.701 4.65972 13.8803 3.99733 12 4C11.524 4 11.058 4.042 10.604 4.121V4.122ZM4.253 9.997C4.93423 9.97981 5.61464 9.93878 6.293 9.874C7.93264 9.72734 9.55828 9.4525 11.155 9.052C10.3205 7.60221 9.41956 6.19171 8.455 4.825C7.42472 5.3354 6.51626 6.06141 5.79124 6.95379C5.06623 7.84617 4.54162 8.88404 4.253 9.997ZM5.783 17.035C6.25195 16.3575 6.77894 15.7221 7.358 15.136C8.812 13.646 10.528 12.486 12.514 11.846L12.576 11.828C12.411 11.464 12.256 11.139 12.1 10.833C10.264 11.368 8.33 11.702 6.403 11.875C5.463 11.96 4.62 11.997 4 12.003C3.99815 13.8356 4.62722 15.6128 5.783 17.035ZM15.004 19.415C14.6184 17.4703 14.0725 15.5607 13.372 13.706C11.372 14.433 9.776 15.496 8.543 16.764C8.0454 17.2664 7.60382 17.8213 7.226 18.419C8.60481 19.4478 10.2797 20.0025 12 20C13.0299 20.0015 14.0504 19.8035 15.005 19.417L15.004 19.415ZM16.878 18.34C18.4393 17.1398 19.5028 15.4057 19.865 13.47C19.525 13.385 19.094 13.3 18.62 13.234C17.5661 13.0823 16.4968 13.0712 15.44 13.201C16.035 14.8799 16.5154 16.5961 16.878 18.34ZM12 22C6.477 22 2 17.523 2 12C2 6.477 6.477 2 12 2C17.523 2 22 6.477 22 12C22 17.523 17.523 22 12 22Z"
+                                    fill="currentColor" fill-opacity="0.9"></path>
+                            </svg>
+                        </a></li>
+                    <li><a href="#" class="text-white transition-all"><svg width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M12.001 2C6.47598 2 2.00098 6.475 2.00098 12C1.99977 14.0992 2.65958 16.1454 3.88679 17.8484C5.114 19.5515 6.84631 20.8249 8.83798 21.488C9.33798 21.575 9.52598 21.275 9.52598 21.012C9.52598 20.775 9.51298 19.988 9.51298 19.15C7.00098 19.613 6.35098 18.538 6.15098 17.975C6.03798 17.687 5.55098 16.8 5.12598 16.562C4.77598 16.375 4.27598 15.912 5.11298 15.9C5.90098 15.887 6.46298 16.625 6.65098 16.925C7.55098 18.437 8.98798 18.012 9.56298 17.75C9.65098 17.1 9.91298 16.663 10.201 16.413C7.97598 16.163 5.65098 15.3 5.65098 11.475C5.65098 10.387 6.03798 9.488 6.67598 8.788C6.57598 8.538 6.22598 7.513 6.77598 6.138C6.77598 6.138 7.61298 5.875 9.52598 7.162C10.3401 6.9364 11.1812 6.82302 12.026 6.825C12.876 6.825 13.726 6.937 14.526 7.162C16.439 5.862 17.276 6.138 17.276 6.138C17.826 7.513 17.476 8.538 17.376 8.788C18.013 9.488 18.401 10.375 18.401 11.475C18.401 15.313 16.064 16.163 13.839 16.413C14.201 16.725 14.514 17.325 14.514 18.263C14.514 19.6 14.501 20.675 14.501 21.013C14.501 21.275 14.689 21.587 15.189 21.487C17.1738 20.8166 18.8985 19.5408 20.1203 17.8389C21.3421 16.1371 21.9995 14.095 22 12C22 6.475 17.525 2 12 2H12.001Z"
+                                    fill="currentColor" fill-opacity="0.9"></path>
+                            </svg>
+                        </a></li>
+
+                </ul>
+            </nav>
+        </div>
+        <!-- offcanvas-menu end -->
+
+        <!-- Header end -->
+
+        <!-- Hero section start -->
+        <section class="bg-secondary position-relative pt-140 pb-90">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="hero-content-wrapper">
+                            <span
+                                class="font-Syne text-dark fw-bold lh-1 text-2xl d-flex flex-wrap align-items-center hello-iam"
+                                data-aos="fade-right" data-aos-delay="300">
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="65" height="2" viewBox="0 0 65 2"
+                                        fill="none">
+                                        <path d="M0 1H65" stroke="#080808" />
+                                    </svg>
+                                </span>
+
+                                Hello, I’m
+                                <img src="assets/images/icon/victory.png" alt="icon">
+                            </span>
+                            <h1 class="hero-title font-Syne fw-bold position-relative z-1 circle-shape"
+                                data-aos="fade-right" data-aos-delay="400">
+                                Chirag
+                                <!-- <br /> Henry -->
+                            </h1>
+                            <h2 class="hero-title font-Syne fw-bold mb-20" data-aos="fade-right" data-aos-delay="600">
+                                Patel</h2>
+                            <p class="font-Syne fw-bold text-lg leading-tight iam-designer mb-30" data-aos="fade-right"
+                                data-aos-delay="800">iOS Developer/Mobile Application Developer </p>
+
+                            <div class="d-flex flex-wrap hero-btn-wraper">
+                                <!-- Link Start -->
+                                <span data-aos="fade-right" data-aos-delay="1000">
+                                    <a href="contact.html" class="d-flex align-items-center flex-wrap btn-primary">Let’s
+                                        Talk
+                                        <span class="animate-arrow-up">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M7 17L17 7" stroke="currentColor" stroke-opacity="0.9"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                                <path d="M7 7H17V17" stroke="currentColor" stroke-opacity="0.9"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </span>
+                                    </a>
+                                </span>
+                                <!-- Link End -->
+
+                                <!-- Link Start -->
+                                <span data-aos="fade-right" data-aos-delay="1200">
+                                    <a href="projects.html"
+                                        class="d-flex align-items-center flex-wrap btn-primary-outline">
+                                        My Work
+                                        <span class="animate-arrow-up">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M7 17L17 7" stroke="currentColor" stroke-opacity="0.9"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                                <path d="M7 7H17V17" stroke="currentColor" stroke-opacity="0.9"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </span>
+                                    </a>
+                                </span>
+                                <!-- Link End -->
+                            </div>
+
+                            <div class="social-links">
+                                <ul class="d-flex flex-wrap align-items-center list-unstyled">
+                                    <li><a href="#" class="text-dark"><svg width="24" height="24" viewBox="0 0 24 24"
+                                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M6.94043 5.00002C6.94017 5.53046 6.7292 6.03906 6.35394 6.41394C5.97868 6.78883 5.46986 6.99929 4.93943 6.99902C4.409 6.99876 3.90039 6.78779 3.52551 6.41253C3.15062 6.03727 2.94016 5.52846 2.94043 4.99802C2.9407 4.46759 3.15166 3.95899 3.52692 3.5841C3.90218 3.20922 4.411 2.99876 4.94143 2.99902C5.47186 2.99929 5.98047 3.21026 6.35535 3.58552C6.73024 3.96078 6.9407 4.46959 6.94043 5.00002ZM7.00043 8.48002H3.00043V21H7.00043V8.48002ZM13.3204 8.48002H9.34043V21H13.2804V14.43C13.2804 10.77 18.0504 10.43 18.0504 14.43V21H22.0004V13.07C22.0004 6.90002 14.9404 7.13002 13.2804 10.16L13.3204 8.48002Z"
+                                                    fill="currentColor" fill-opacity="0.9"></path>
+                                            </svg>
+                                        </a></li>
+
+                                    <li><a href="#" class="text-dark"><svg width="24" height="24" viewBox="0 0 24 24"
+                                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12.001 2C6.47598 2 2.00098 6.475 2.00098 12C1.99977 14.0992 2.65958 16.1454 3.88679 17.8484C5.114 19.5515 6.84631 20.8249 8.83798 21.488C9.33798 21.575 9.52598 21.275 9.52598 21.012C9.52598 20.775 9.51298 19.988 9.51298 19.15C7.00098 19.613 6.35098 18.538 6.15098 17.975C6.03798 17.687 5.55098 16.8 5.12598 16.562C4.77598 16.375 4.27598 15.912 5.11298 15.9C5.90098 15.887 6.46298 16.625 6.65098 16.925C7.55098 18.437 8.98798 18.012 9.56298 17.75C9.65098 17.1 9.91298 16.663 10.201 16.413C7.97598 16.163 5.65098 15.3 5.65098 11.475C5.65098 10.387 6.03798 9.488 6.67598 8.788C6.57598 8.538 6.22598 7.513 6.77598 6.138C6.77598 6.138 7.61298 5.875 9.52598 7.162C10.3401 6.9364 11.1812 6.82302 12.026 6.825C12.876 6.825 13.726 6.937 14.526 7.162C16.439 5.862 17.276 6.138 17.276 6.138C17.826 7.513 17.476 8.538 17.376 8.788C18.013 9.488 18.401 10.375 18.401 11.475C18.401 15.313 16.064 16.163 13.839 16.413C14.201 16.725 14.514 17.325 14.514 18.263C14.514 19.6 14.501 20.675 14.501 21.013C14.501 21.275 14.689 21.587 15.189 21.487C17.1738 20.8166 18.8985 19.5408 20.1203 17.8389C21.3421 16.1371 21.9995 14.095 22 12C22 6.475 17.525 2 12 2H12.001Z"
+                                                    fill="currentColor" fill-opacity="0.9"></path>
+                                            </svg>
+                                        </a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <div class="d-none d-md-block">
+        <img class="position-absolute top-0 end-0 hero-image" data-aos="fade-left" src="assets/images/hero/hero.png"
+            alt="hero Image">
+
+        <a href="contact.html" class="contact-spin">
+            <svg class="position-absolute" width="180" height="180" viewBox="0 0 180 180" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <g class="animate-spin">
+
+                    <path
+                        d="M157.631 90C157.631 127.352 127.352 157.632 89.9995 157.632C52.6476 157.632 22.3678 127.352 22.3678 90C22.3678 52.6481 52.6476 22.3683 89.9995 22.3683C127.352 22.3683 157.631 52.6481 157.631 90Z"
+                        fill="#080808" stroke="#FFB646" stroke-width="2.08333" stroke-miterlimit="10" />
+                    <path
+                        d="M43.7883 74.5846C43.5199 75.4042 43.1104 76.0554 42.5597 76.5383C42.0037 77.0107 41.3536 77.3039 40.6095 77.4181C39.8574 77.5296 39.0598 77.4474 38.2165 77.1713C37.3654 76.8927 36.6735 76.4873 36.141 75.9552C35.6005 75.4205 35.2458 74.7983 35.0767 74.0886C34.9103 73.3709 34.9612 72.6023 35.2295 71.7827C35.5469 70.8133 36.0426 70.0987 36.7167 69.6388C37.3908 69.1789 38.1805 69.0055 39.0858 69.1186L38.6292 70.5135C38.1123 70.4665 37.6527 70.5778 37.2503 70.8474C36.8479 71.1171 36.5474 71.5553 36.3487 72.1622C36.0778 72.9897 36.1474 73.7367 36.5574 74.4032C36.9596 75.0671 37.6532 75.5603 38.6384 75.8828C39.6156 76.2027 40.4627 76.2139 41.1796 75.9163C41.8965 75.6188 42.3905 75.0562 42.6614 74.2287C42.86 73.6219 42.8847 73.0934 42.7354 72.6431C42.5862 72.1929 42.2971 71.8365 41.8682 71.5739L42.3249 70.179C43.0903 70.6128 43.6049 71.2132 43.8687 71.9801C44.1324 72.7471 44.1056 73.6152 43.7883 74.5846Z"
+                        fill="white" />
+                    <path
+                        d="M50.1726 61.9256C49.6756 62.6305 49.0849 63.1374 48.4004 63.4462C47.7159 63.7551 46.9941 63.8651 46.2348 63.7763C45.4688 63.6826 44.7232 63.3802 43.998 62.8689C43.2728 62.3576 42.7408 61.7594 42.4021 61.0741C42.0566 60.3841 41.9143 59.6648 41.9752 58.9163C42.0362 58.1679 42.3151 57.4412 42.812 56.7363C43.309 56.0315 43.8997 55.5246 44.5842 55.2158C45.2687 54.9069 45.9915 54.8027 46.7528 54.9031C47.512 54.9919 48.2542 55.292 48.9794 55.8032C49.7046 56.3145 50.24 56.9152 50.5855 57.6052C50.929 58.2837 51.0703 58.9972 51.0094 59.7456C50.9484 60.4941 50.6695 61.2208 50.1726 61.9256ZM49.2067 61.2447C49.5508 60.7567 49.741 60.2567 49.7774 59.7446C49.8185 59.2257 49.7074 58.7212 49.4441 58.2312C49.1808 57.7411 48.7679 57.2978 48.2053 56.9012C47.6428 56.5046 47.0865 56.2646 46.5365 56.1812C45.9865 56.0979 45.474 56.1627 44.9991 56.3758C44.529 56.5821 44.1219 56.9293 43.7779 57.4173C43.4338 57.9053 43.2412 58.4087 43.2001 58.9276C43.1589 59.4465 43.27 59.951 43.5333 60.441C43.8014 60.9242 44.2167 61.3642 44.7793 61.7608C45.3418 62.1574 45.8957 62.4008 46.4409 62.4909C46.9909 62.5743 47.5034 62.5094 47.9783 62.2963C48.4532 62.0832 48.8627 61.7327 49.2067 61.2447Z"
+                        fill="white" />
+                    <path
+                        d="M57.1532 53.6456L51.7944 46.7785L52.8343 45.967L60.3121 48.4499L56.2777 43.28L57.3175 42.4685L62.6763 49.3356L61.6365 50.1471L54.1587 47.6642L58.1931 52.8341L57.1532 53.6456Z"
+                        fill="white" />
+                    <path
+                        d="M70.5729 45.1508L67.6243 38.1023L65.248 39.0964L64.835 38.1092L70.793 35.6168L71.206 36.604L68.8412 37.5933L71.7898 44.6418L70.5729 45.1508Z"
+                        fill="white" />
+                    <path
+                        d="M78.8716 42.2432L80.7576 33.1533L82.1851 32.9397L86.6248 41.083L85.2465 41.2892L84.1931 39.2953L80.6734 39.822L80.2499 42.0369L78.8716 42.2432ZM80.8879 38.733L83.6692 38.3168L81.6911 34.599L80.8879 38.733Z"
+                        fill="white" />
+                    <path
+                        d="M96.3093 41.6882C95.4534 41.5795 94.7363 41.3002 94.1579 40.8504C93.5887 40.3935 93.1778 39.8103 92.925 39.1008C92.6734 38.3831 92.6034 37.584 92.7153 36.7034C92.8282 35.8146 93.0957 35.0584 93.5178 34.4346C93.9409 33.8026 94.4851 33.3366 95.1504 33.0364C95.824 32.7373 96.5887 32.6421 97.4445 32.7508C98.4568 32.8794 99.2525 33.2313 99.8317 33.8066C100.411 34.382 100.73 35.125 100.79 36.0357L99.3337 35.8507C99.2823 35.3341 99.0861 34.9036 98.7452 34.5592C98.4042 34.2149 97.9169 34.0025 97.2832 33.922C96.4191 33.8122 95.6984 34.0217 95.1212 34.5505C94.5449 35.071 94.1915 35.8456 94.0608 36.8743C93.9312 37.8948 94.0803 38.7291 94.5081 39.3772C94.9359 40.0252 95.5818 40.4041 96.4459 40.5139C97.0796 40.5944 97.6035 40.5188 98.0176 40.287C98.4317 40.0553 98.7272 39.704 98.9041 39.2331L100.361 39.4181C100.079 40.252 99.5866 40.871 98.8831 41.275C98.1795 41.679 97.3216 41.8168 96.3093 41.6882Z"
+                        fill="white" />
+                    <path
+                        d="M108.074 44.5801L110.985 37.5128L108.603 36.5314L109.01 35.5415L114.984 38.0021L114.576 38.992L112.205 38.0153L109.294 45.0827L108.074 44.5801Z"
+                        fill="white" />
+                    <path
+                        d="M123.795 54.407L130.354 48.6754L131.378 49.8467L128.952 55.883L135.251 54.2787L136.274 55.45L129.715 61.1815L128.847 60.1883L133.692 55.9552L128.032 57.3643L127.361 56.596L129.498 51.1752L124.663 55.4002L123.795 54.407Z"
+                        fill="white" />
+                    <path
+                        d="M133.257 67.1066L141.164 63.4523L143.487 68.4788L142.516 68.9278L140.746 65.0986L138.283 66.2366L139.897 69.727L138.948 70.1655L137.335 66.6752L134.782 67.855L136.552 71.6842L135.58 72.1332L133.257 67.1066Z"
+                        fill="white" />
+                    <path d="M137.181 86.6396L138.426 86.6423L138.411 93.4738L137.167 93.4711L137.181 86.6396Z"
+                        fill="white" />
+                    <path
+                        d="M133.683 111.594C134.061 110.818 134.556 110.229 135.168 109.826C135.783 109.434 136.468 109.232 137.221 109.221C137.981 109.213 138.761 109.404 139.558 109.792C140.364 110.185 140.994 110.681 141.449 111.282C141.912 111.885 142.178 112.55 142.248 113.277C142.315 114.011 142.16 114.766 141.782 115.541C141.335 116.458 140.746 117.099 140.015 117.462C139.284 117.826 138.477 117.89 137.596 117.654L138.239 116.334C138.745 116.451 139.215 116.404 139.651 116.192C140.087 115.979 140.445 115.586 140.724 115.012C141.106 114.229 141.139 113.479 140.824 112.763C140.516 112.05 139.896 111.466 138.964 111.012C138.04 110.561 137.202 110.434 136.45 110.631C135.699 110.828 135.133 111.318 134.751 112.101C134.471 112.675 134.375 113.195 134.461 113.662C134.547 114.128 134.785 114.521 135.174 114.84L134.531 116.16C133.832 115.625 133.404 114.96 133.247 114.164C133.091 113.368 133.236 112.511 133.683 111.594Z"
+                        fill="white" />
+                    <path
+                        d="M125.614 123.254C126.204 122.624 126.859 122.203 127.58 121.991C128.3 121.78 129.031 121.77 129.771 121.962C130.517 122.161 131.214 122.563 131.862 123.169C132.51 123.776 132.955 124.442 133.197 125.167C133.444 125.898 133.486 126.631 133.323 127.364C133.159 128.097 132.783 128.779 132.194 129.409C131.604 130.039 130.949 130.46 130.228 130.672C129.508 130.884 128.777 130.887 128.037 130.683C127.297 130.491 126.602 130.091 125.954 129.485C125.306 128.878 124.858 128.21 124.611 127.478C124.364 126.759 124.322 126.032 124.485 125.299C124.649 124.566 125.025 123.884 125.614 123.254ZM126.478 124.062C126.07 124.498 125.812 124.967 125.706 125.47C125.594 125.978 125.634 126.493 125.828 127.015C126.021 127.537 126.369 128.033 126.872 128.503C127.375 128.974 127.893 129.288 128.427 129.446C128.96 129.605 129.477 129.611 129.977 129.465C130.471 129.325 130.922 129.037 131.33 128.601C131.738 128.165 131.998 127.693 132.111 127.184C132.223 126.676 132.182 126.161 131.989 125.639C131.789 125.123 131.439 124.63 130.936 124.16C130.433 123.689 129.918 123.372 129.39 123.208C128.856 123.049 128.339 123.043 127.84 123.189C127.34 123.335 126.886 123.626 126.478 124.062Z"
+                        fill="white" />
+                    <path
+                        d="M117.563 130.504L121.936 138.038L120.795 138.7L113.725 135.221L117.017 140.893L115.876 141.555L111.503 134.021L112.644 133.358L119.714 136.838L116.422 131.166L117.563 130.504Z"
+                        fill="white" />
+                    <path
+                        d="M103.11 137.094L105.066 144.482L107.557 143.822L107.831 144.857L101.586 146.511L101.312 145.476L103.79 144.819L101.834 137.431L103.11 137.094Z"
+                        fill="white" />
+                    <path
+                        d="M94.5093 138.832L91.3962 147.578L89.9528 147.594L86.6703 138.92L88.0639 138.904L88.8342 141.024L92.3929 140.984L93.1157 138.848L94.5093 138.832ZM92.0312 142.033L89.2191 142.065L90.6695 146.018L92.0312 142.033Z"
+                        fill="white" />
+                    <path
+                        d="M77.1843 137.002C78.0177 137.224 78.6908 137.597 79.2035 138.121C79.7061 138.65 80.0349 139.283 80.1901 140.02C80.3432 140.764 80.3052 141.566 80.0762 142.423C79.8451 143.289 79.4785 144.002 78.9766 144.563C78.4725 145.133 77.8707 145.521 77.1713 145.73C76.4638 145.936 75.6933 145.927 74.8599 145.705C73.8742 145.441 73.133 144.986 72.6364 144.338C72.1397 143.69 71.9228 142.911 71.9857 142.001L73.4041 142.38C73.3858 142.898 73.5224 143.351 73.814 143.738C74.1055 144.125 74.5598 144.401 75.1769 144.566C76.0183 144.791 76.7605 144.68 77.4035 144.233C78.0443 143.795 78.4984 143.075 78.766 142.073C79.0314 141.079 78.9956 140.233 78.6588 139.533C78.3219 138.834 77.7327 138.372 76.8913 138.147C76.2742 137.982 75.745 137.987 75.3036 138.161C74.8622 138.335 74.5223 138.643 74.2838 139.086L72.8654 138.707C73.2563 137.919 73.8274 137.372 74.5787 137.066C75.3301 136.76 76.1986 136.739 77.1843 137.002Z"
+                        fill="white" />
+                    <path
+                        d="M65.8866 132.522L62.0282 139.116L64.2512 140.417L63.7107 141.34L58.1373 138.079L58.6777 137.155L60.8899 138.45L64.7483 131.856L65.8866 132.522Z"
+                        fill="white" />
+                    <path
+                        d="M51.6575 120.629L44.3842 125.419L43.5287 124.121L46.7486 118.469L40.2915 119.206L39.436 117.907L46.7093 113.116L47.4348 114.218L42.0629 117.756L47.8604 117.126L48.4216 117.978L45.5706 123.059L50.9321 119.527L51.6575 120.629Z"
+                        fill="white" />
+                    <path
+                        d="M44.0233 106.773L35.696 109.316L34.0791 104.022L35.1022 103.71L36.3339 107.743L38.9273 106.95L37.8045 103.275L38.8038 102.969L39.9266 106.645L42.6151 105.824L41.3833 101.791L42.4064 101.479L44.0233 106.773Z"
+                        fill="white" />
+                    <path d="M38.2513 95.1897L37.1449 95.2462L36.8866 90.1867L37.993 90.1302L38.2513 95.1897Z"
+                        fill="white" />
+
+                </g>
+                <g>
+
+                    <path
+                        d="M89.9999 123.016C108.234 123.016 123.016 108.234 123.016 89.9999C123.016 71.7654 108.234 56.9834 89.9999 56.9834C71.7654 56.9834 56.9834 71.7654 56.9834 89.9999C56.9834 108.234 71.7654 123.016 89.9999 123.016Z"
+                        fill="#FFB646" />
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M89.0556 105.833H88.7517C88.7517 102.454 87.0878 100.016 84.9217 98.2993C82.7319 96.5641 80.0806 95.6169 78.3337 95.2864L78.721 93.2394C80.7295 93.6194 83.7111 94.6819 86.2156 96.6665C87.1483 97.4056 88.0215 98.2792 88.7523 99.2971V74.1667H90.8356V99.7399C91.622 98.5303 92.6098 97.5106 93.6751 96.6665C96.1795 94.6819 99.1612 93.6194 101.17 93.2394L101.557 95.2864C99.8101 95.6169 97.1587 96.5641 94.969 98.2993C92.8028 100.016 91.1389 102.454 91.1389 105.833H90.835H89.0556Z"
+                        fill="#080808" fill-opacity="0.9" />
+                </g>
+            </svg>
+        </a>
+
+    </div>
+
+    </section>
+    <!-- Hero section end -->
+
+    <!-- Service start -->
+    <section class="py-120 bg-dark">
+        <div class="container">
+
+            <div class="row mb-12 align-items-center" data-aos="fade-up" data-aos-delay="400">
+                <div class="col-12 col-lg-6">
+                    <div class="fw-bold font-Syne lh-1 d-flex flex-wrap flex-column gap-y-2">
+                        <h3 class="text-white section-title position-relative circle-shape">
+                            My specialties
+                        </h3>
+                    </div>
+
+                </div>
+                <div class="col-12 col-lg-6">
+                    <p class="paragraph">
+                        Motivated and detail-oriented iOS Developer with 8+ years of experience building and
+                        maintaining high-quality iOS
+                        applications. Proficient in Swift, Objective-C, and various iOS frameworks, including UIKit,
+                        SwiftUI, and Core Data.
+                        Adept at working in Agile environments, collaborating with cross-functional teams, and
+                        delivering seamless mobile
+                        experiences. Passionate about keeping up with the latest iOS trends and ensuring the highest
+                        standards of code quality. </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-xl-8">
+                    <div class="row row-gap-24">
+
+                        <!-- service Item -->
+                        <div class="col-12 col-sm-6 col-md-4">
+
+                            <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+                                <!-- Icon -->
+                                <div class="d-flex flex-wrap align-items-center justify-content-center service-icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M21.984 16.348c.056-.112.056-.224.112-.336 1.346-5.272-1.851-11.44-7.347-14.693 2.412 3.253 3.365 7.122 2.524 10.599-.056.28-.168.617-.28.897a5.173 5.173 0 0 1-.45-.28S11.104 9.17 5.273 3.282c-.169-.168 3.14 4.71 6.841 8.58-1.738-1.01-6.673-4.542-9.758-7.403.337.617.842 1.234 1.346 1.851 2.58 3.309 5.945 7.346 9.983 10.43-2.86 1.74-6.842 1.851-10.88 0-1.01-.448-1.85-1.009-2.804-1.682 1.682 2.636 4.318 5.048 7.459 6.337 3.757 1.627 7.57 1.515 10.318 0h.057c.112-.056.224-.112.336-.224 1.346-.673 3.982-1.402 5.44 1.402.392.785 1.121-2.86-1.626-6.225z
+" fill="currentColor" />
+
+                                    </svg>
+
+                                </div>
+
+                                <!-- Icon End -->
+                                <h4>
+                                    <a href="projects.html"
+                                        class="d-flex flex-wrap align-items-end justify-content-between fw-bold text-xl font-Syne service-card-link">
+                                        Swift <br /> Programing
+
+                                        <span class="animate-arrow-up">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path class="transition-all" d="M7 17L17 7" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                                <path class="transition-all" d="M7 7H17V17" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+
+                                        </span>
+                                    </a>
+                                </h4>
+                            </div>
+
+                        </div>
+
+                        <!-- service Item End -->
+
+                        <!-- service Item -->
+
+                        <div class="col-12 col-sm-6 col-md-4">
+                            <div class="service-card" data-aos="fade-up" data-aos-delay="700">
+                                <!-- Icon -->
+                                <div class="d-flex flex-wrap align-items-center justify-content-center service-icon">
+
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="32px"
+                                        height="32px">
+                                        <path
+                                            d="M 25 2 C 24.285156 2 23.574219 2.179688 22.933594 2.539063 L 6.089844 12.003906 C 4.808594 12.726563 4 14.074219 4 15.535156 L 4 34.464844 C 4 35.929688 4.808594 37.277344 6.089844 38 L 22.933594 47.460938 C 24.214844 48.183594 25.785156 48.183594 27.066406 47.460938 L 43.910156 38 C 45.195313 37.277344 46 35.925781 46 34.464844 L 46 15.535156 C 46 14.074219 45.191406 12.726563 43.910156 12.003906 L 27.066406 2.539063 C 26.425781 2.179688 25.714844 2 25 2 Z M 25 4 C 25.375 4 25.753906 4.09375 26.089844 4.28125 L 42.933594 13.746094 C 43.601563 14.125 44 14.804688 44 15.535156 L 44 24 L 42 24 L 42 22 L 40 22 L 40 24 L 38 24 L 38 26 L 40 26 L 40 28 L 42 28 L 42 26 L 44 26 L 44 34.464844 C 44 35.195313 43.601563 35.875 42.929688 36.253906 L 26.089844 45.71875 C 25.417969 46.09375 24.582031 46.09375 23.910156 45.71875 L 7.070313 36.253906 C 6.398438 35.875 6 35.199219 6 34.464844 L 6 15.535156 C 6 14.804688 6.398438 14.125 7.070313 13.746094 L 23.910156 4.28125 C 24.246094 4.09375 24.625 4 25 4 Z M 25 12 C 17.839844 12 12 17.839844 12 25 C 12 32.160156 17.839844 38 25 38 C 29.089844 38 32.886719 36.09375 35.339844 32.863281 L 36.023438 31.960938 L 29.96875 28.453125 L 29.421875 29.046875 C 28.292969 30.28125 26.691406 31 25 31 C 21.683594 31 19 28.316406 19 25 C 19 21.683594 21.683594 19 25 19 C 26.691406 19 28.292969 19.71875 29.421875 20.953125 L 29.96875 21.546875 L 36.023438 18.039063 L 35.339844 17.136719 C 32.886719 13.90625 29.089844 12 25 12 Z M 25 14 C 28.074219 14 30.886719 15.316406 32.945313 17.511719 L 30.203125 19.097656 C 28.757813 17.832031 26.960938 17 25 17 C 20.597656 17 17 20.597656 17 25 C 17 29.402344 20.597656 33 25 33 C 26.960938 33 28.757813 32.167969 30.203125 30.902344 L 32.945313 32.488281 C 30.886719 34.683594 28.074219 36 25 36 C 18.925781 36 14 31.074219 14 25 C 14 18.925781 18.925781 14 25 14 Z M 33 22 L 33 24 L 31 24 L 31 26 L 33 26 L 33 28 L 35 28 L 35 26 L 37 26 L 37 24 L 35 24 L 35 22 Z"
+                                            fill="currentColor" />
+                                    </svg>
+
+
+
+                                </div>
+
+                                <!-- Icon End -->
+                                <h4>
+                                    <a href="projects.html"
+                                        class="d-flex flex-wrap align-items-end justify-content-between fw-bold text-xl font-Syne service-card-link">
+                                        Objective C<br /> Programing
+
+                                        <span class="animate-arrow-up">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path class="transition-all" d="M7 17L17 7" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                                <path class="transition-all" d="M7 7H17V17" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+
+                                        </span>
+                                    </a>
+                                </h4>
+                            </div>
+
+                        </div>
+
+                        <!-- service Item End -->
+
+                        <!-- service Item -->
+                        <div class="col-12 col-sm-6 col-md-4">
+                            <div class="service-card" data-aos="fade-up" data-aos-delay="900">
+                                <!-- Icon -->
+                                <div class="d-flex flex-wrap align-items-center justify-content-center service-icon">
+                                    <svg width="26px" height="26px" viewBox="0 0 15 15" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M2.5 11.5L11.5 3.5L12.5 12.5L7.5 14.5L2.5 11.5ZM2.5 11.5L7.5 2.5L9.5 5.5M2.5 11.5L3.5 0.5L6.5 3.5"
+                                            stroke="currentColor" stroke-linejoin="round" />
+                                    </svg>
+
+
+                                </div>
+
+                                <!-- Icon End -->
+                                <h4>
+                                    <a href="projects.html"
+                                        class="d-flex flex-wrap align-items-end justify-content-between fw-bold text-xl font-Syne service-card-link">
+                                        <br />Firebase
+                                        <span class="animate-arrow-up">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path class="transition-all" d="M7 17L17 7" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                                <path class="transition-all" d="M7 7H17V17" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+
+                                        </span>
+                                    </a>
+                                </h4>
+                            </div>
+
+                        </div>
+
+
+                        <!-- service Item End -->
+
+                        <!-- service Item -->
+                        <div class="col-12 col-sm-6 col-md-4">
+                            <div class="service-card" data-aos="fade-up" data-aos-delay="1100">
+                                <!-- Icon -->
+                                <div class="d-flex flex-wrap align-items-center justify-content-center service-icon">
+                                    <svg fill="#000000" width="26px" height="26px" viewBox="0 0 32 32" version="1.1"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <title>git</title>
+                                        <path
+                                            d="M30.428 14.663l-13.095-13.094c-0.35-0.349-0.833-0.565-1.367-0.565s-1.017 0.216-1.367 0.565l0-0-2.713 2.718 3.449 3.449c0.22-0.077 0.473-0.121 0.737-0.121 1.269 0 2.297 1.028 2.297 2.297 0 0.269-0.046 0.526-0.131 0.766l0.005-0.016 3.322 3.324c0.222-0.079 0.479-0.125 0.746-0.125 1.268 0 2.296 1.028 2.296 2.296s-1.028 2.296-2.296 2.296c-1.268 0-2.296-1.028-2.296-2.296 0-0.313 0.063-0.611 0.176-0.883l-0.006 0.015-3.11-3.094v8.154c0.764 0.385 1.279 1.163 1.279 2.061 0 1.27-1.030 2.3-2.3 2.3s-2.3-1.030-2.3-2.3c0-0.634 0.256-1.207 0.671-1.623l-0 0c0.211-0.211 0.462-0.382 0.741-0.502l0.015-0.006v-8.234c-0.842-0.354-1.422-1.173-1.422-2.126 0-0.32 0.065-0.624 0.183-0.901l-0.006 0.015-3.389-3.405-8.98 8.974c-0.348 0.351-0.562 0.834-0.562 1.368s0.215 1.017 0.563 1.368l13.096 13.092c0.349 0.35 0.832 0.566 1.366 0.566s1.016-0.216 1.366-0.566l13.034-13.034c0.35-0.349 0.567-0.833 0.567-1.366s-0.217-1.017-0.567-1.366l-0-0z"
+                                            fill="currentColor">
+                                        </path>
+                                    </svg>
+
+
+                                </div>
+
+                                <!-- Icon End -->
+                                <h4>
+                                    <a href="projects.html"
+                                        class="d-flex flex-wrap align-items-end justify-content-between fw-bold text-xl font-Syne service-card-link">
+                                        <br /> GIT
+
+                                        <span class="animate-arrow-up">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path class="transition-all" d="M7 17L17 7" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                                <path class="transition-all" d="M7 7H17V17" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+
+                                        </span>
+                                    </a>
+                                </h4>
+                            </div>
+
+                        </div>
+
+                        <!-- service Item End -->
+
+                        <!-- service Item -->
+                        <div class="col-12 col-sm-6 col-md-4">
+                            <div class="service-card" data-aos="fade-up" data-aos-delay="1300">
+                                <!-- Icon -->
+                                <div class="d-flex flex-wrap align-items-center justify-content-center service-icon">
+                                    <svg width="26px" height="26px" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M21 5C21 6.65685 16.9706 8 12 8C7.02944 8 3 6.65685 3 5M21 5C21 3.34315 16.9706 2 12 2C7.02944 2 3 3.34315 3 5M21 5V19C21 20.66 17 22 12 22C7 22 3 20.66 3 19V5M21 12C21 13.66 17 15 12 15C7 15 3 13.66 3 12"
+                                            stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+
+
+                                </div>
+
+                                <!-- Icon End -->
+                                <h4>
+                                    <a href="projects.html"
+                                        class="d-flex flex-wrap align-items-end justify-content-between fw-bold text-xl font-Syne service-card-link">
+                                        <br /> Database
+                                        <span class="animate-arrow-up">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path class="transition-all" d="M7 17L17 7" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                                <path class="transition-all" d="M7 7H17V17" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+
+                                        </span>
+                                    </a>
+                                </h4>
+                            </div>
+
+                        </div>
+
+                        <!-- service Item End -->
+
+                        <!-- service Item -->
+                        <div class="col-12 col-sm-6 col-md-4">
+                            <div class="service-card" data-aos="fade-up" data-aos-delay="1500">
+                                <!-- Icon -->
+                                <div class="d-flex flex-wrap align-items-center justify-content-center service-icon">
+                                    <svg fill="currentColor" width="26px" height="26px" viewBox="0 0 24 24" role="img"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M8.812 17.176c-2.968 0-4.956-2.308-4.956-5.176 0-2.705 1.776-5.176 4.91-5.176 2.407 0 3.856 1.445 4.207 3.357h3.95C16.479 6.427 13.51 3.42 8.718 3.42 3.131 3.42 0 7.523 0 12c0 4.57 3.295 8.58 8.766 8.58 4.58 0 7.549-2.822 8.18-6.272h-4.02c-.467 1.609-1.916 2.868-4.114 2.868zM24 12.068l-3.466 8.055-2.38-1.022 2.992-7.055-3.01-7.096 2.433-1.042z" />
+                                    </svg>
+
+
+                                </div>
+
+                                <!-- Icon End -->
+                                <h4>
+                                    <a href="projects.html"
+                                        class="d-flex flex-wrap align-items-end justify-content-between fw-bold text-xl font-Syne service-card-link">
+                                        <br /> Cocoapods
+                                        <span class="animate-arrow-up">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path class="transition-all" d="M7 17L17 7" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                                <path class="transition-all" d="M7 7H17V17" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+
+                                        </span>
+                                    </a>
+                                </h4>
+                            </div>
+
+                        </div>
+
+                        <!-- service Item End -->
+
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-xl-4" data-aos="zoom-in" data-aos-delay="1000">
+                    <div class="d-flex flex-wrap flex-column justify-content-between service-contact-card">
+                        <div class="d-flex flex-wrap justify-content-end">
+                            <a href="contact.html" class="animate-arrow-up">
+                                <svg width="80" height="80" viewBox="0 0 80 80" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M23.3333 56.6666L56.6667 23.3333" stroke="#FFB646" stroke-width="3.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M23.3333 23.3333H56.6667V56.6666" stroke="#FFB646" stroke-width="3.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                        </div>
+
+                        <div class="d-flex flex-column flex-wrap gap-y-2">
+                            <span class="text-warning text-lg fw-normal lh-1">SAY HELLO!</span>
+                            <h6 class="text-white text-2xl fw-bold font-Syne lh-1 say-hello-email">
+                                pchirag30124@gmail.com
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- Service end -->
+
+    <!-- About Us Sectin Start -->
+    <section class="about-section pb-120 bg-dark" data-aos="zoom-out" data-aos-delay="800">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <div class="position-relative">
+                        <img src="assets/images/about/about-white.png" alt="">
+                        <div class="d-flex flex-wrap flex-column position-absolute years-of-experience">
+                            <span
+                                class="years-experience-of-number text-white fw-bold font-Syne leading-none d-inline-block position-relative">8+</span>
+                            <span class="strock-text">Years of <br /> experience</span>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 about-grid-space-right">
+
+                    <div class="fw-bold font-Syne leading-none d-flex flex-wrap flex-column gap-y-2">
+                        <span class="text-warning text-xl">Hello I’m</span>
+                        <h3 class="section-title circle-shape text-white position-relative">
+                            Chirag Patel, iOS Developer
+                        </h3>
+
+                        <p class="paragraph mb-5">
+                            <span class="text-warning text-xl">Languages:</span> Swift,
+                            Objective-C, SwiftUI<br /><span class="text-warning text-xl">Frameworks & Libraries:</span>
+                            UIKit, SwiftUI, CoreData,
+                            CoreAnimation, Combine, Alamofire,
+                            Firebase, Realm, XCTest.<br /><span class="text-warning text-xl">Development Tools:</span>
+                            Xcode,
+                            Git, Cocoapods,
+                            Fastlane, Jira,
+                            Jenkins, TestFlight.<br /><span class="text-warning text-xl">Design Patterns
+                                & Practices:</span> MVC, MVVM,
+                            Singleton, Dependency
+                            Injection, TDD (Test-Driven
+                            Development).<br /><span class="text-warning text-xl">Others:</span> RESTful APIs,
+                            JSON, Push Notifications, AutoLayout, Bluetooth
+                            (BLE), CoreLocation,
+                            MapKit.
+                        </p>
+
+
+                        <div class="d-flex flex-wrap">
+                            <a href="contact.html" class="d-flex flex-wrap align-items-center btn-primary">Download
+                                my resume
+                                <span class="d-inline-block animate-arrow-up">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7 17L17 7" stroke="currentColor" stroke-opacity="0.9" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"></path>
+                                        <path d="M7 7H17V17" stroke="currentColor" stroke-opacity="0.9" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"></path>
+                                    </svg>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Us Sectin End -->
+
+
+
+
+    <!-- tabs start -->
+    <section class="featured-properties dark-paragraph">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-12 col-lg-5 col-2xl-4" data-aos="fade-up" data-aos-delay="300">
+
+                    <div class="fw-bold font-Syne leading-none d-flex flex-wrap flex-column gap-y-2 mb-4">
+                        <span class="text-warning text-xl">Resume</span>
+                        <h3 class="section-title circle-shape text-white position-relative">
+                            All over my details find here...
+                        </h3>
+
+                    </div>
+                    <div class="tabs nav nav-pills flex-wrap flex-lg-column">
+                        <button data-bs-toggle="pill" data-bs-target="#about_me_tab"
+                            class="tab-btn justify-content-between align-items-center d-inline-flex active">
+                            About me
+                            <span class="inline-block animate-arrow-up">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7 17L17 7" stroke="currentColor" stroke-opacity="0.9" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path d="M7 7H17V17" stroke="currentColor" stroke-opacity="0.9" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round"></path>
+                                </svg>
+                            </span>
+                        </button>
+                        <button class="tab-btn tab-btn justify-content-between align-items-center d-inline-flex"
+                            data-bs-toggle="pill" data-bs-target="#experience_tab">
+                            Experience
+                            <span class="inline-block animate-arrow-up">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7 17L17 7" stroke="currentColor" stroke-opacity="0.9" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path d="M7 7H17V17" stroke="currentColor" stroke-opacity="0.9" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round"></path>
+                                </svg>
+                            </span>
+                        </button>
+                        <button class="tab-btn tab-btn justify-content-between align-items-center d-inline-flex"
+                            data-bs-toggle="pill" data-bs-target="#education_tab">
+                            Education
+                            <span class="inline-block animate-arrow-up">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7 17L17 7" stroke="currentColor" stroke-opacity="0.9" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path d="M7 7H17V17" stroke="currentColor" stroke-opacity="0.9" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round"></path>
+                                </svg>
+                            </span>
+                        </button>
+                        <button class="tab-btn tab-btn justify-content-between align-items-center d-inline-flex"
+                            data-bs-toggle="pill" data-bs-target="#skills_tab">
+                            Skills
+                            <span class="inline-block animate-arrow-up">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7 17L17 7" stroke="currentColor" stroke-opacity="0.9" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path d="M7 7H17V17" stroke="currentColor" stroke-opacity="0.9" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round"></path>
+                                </svg>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-7 col-2xl-8 featured-properties-space-left" data-aos="fade-up"
+                    data-aos-delay="600">
+                    <div class="tab-content">
+
+                        <div id="about_me_tab" class="tab-pane fade show active position-relative">
+                            <div class="tab-contents">
+                                <!-- <h4 class="text-white text-2xl based-in-german-title-tab fw-bold font-Syne">Based in
+                                    German
+                                </h4> -->
+                                <p class="paragraph mb-7">Chirag Patel, <span class="text-white">iOS
+                                        Developer</span>
+                                </p>
+
+                                <p class="paragraph mb-14">This format is clean, professional, and highlights your
+                                    experience and technical skills clearly. Tailor each section
+                                    according to your personal experience and the role you're applying for!</p>
+
+                                <ul class="flex-column gap-3 d-inline-flex list-unstyled p-0">
+                                    <li class="gap-10 d-inline-flex align-items-center">
+                                        <span class="w-110px text-black-text-800 text-lg fw-normal leading-none">
+                                            Name</span>
+                                        <span class="text-white text-2xl fw-bold font-Syne leading-8">
+                                            Chirag Patel</span>
+                                    </li>
+                                    <li class="gap-10 d-inline-flex align-items-center">
+                                        <span class="w-110px text-black-text-800 text-lg fw-normal leading-none">
+                                            Nationality</span>
+                                        <span class="text-white text-2xl fw-bold font-Syne leading-8">
+                                            Indian</span>
+                                    </li>
+                                    <li class="gap-10 d-inline-flex align-items-center">
+                                        <span class="w-110px text-black-text-800 text-lg fw-normal leading-none">
+                                            Phone</span>
+                                        <span class="text-white text-2xl fw-bold font-Syne leading-8">
+                                            +1(469)936-0057</span>
+                                    </li>
+                                    <li class="gap-10 d-inline-flex align-items-center">
+                                        <span class="w-110px text-black-text-800 text-lg fw-normal leading-none">
+                                            Email</span>
+                                        <span class="text-white text-2xl fw-bold font-Syne leading-8">
+                                            pchirag30124@gmail.com</span>
+                                    </li>
+                                    <li class="gap-10 d-inline-flex align-items-center">
+                                        <span class="w-110px text-black-text-800 text-lg fw-normal leading-none">
+                                            Experience</span>
+                                        <span class="text-white text-2xl fw-bold font-Syne leading-8">
+                                            8+ years</span>
+                                    </li>
+
+                                    <li class="gap-10 d-inline-flex align-items-center">
+                                        <span class="w-110px text-black-text-800 text-lg fw-normal leading-none">
+                                            Skype</span>
+                                        <span class="text-white text-2xl fw-bold font-Syne leading-8">
+                                            shivaschirag</span>
+                                    </li>
+                                    <li class="gap-10 d-inline-flex align-items-center">
+                                        <span class="w-110px text-black-text-800 text-lg fw-normal leading-none">
+                                            Language</span>
+                                        <span class="text-white text-2xl fw-bold font-Syne leading-8">
+                                            English, Hindi, Gujrati</span>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+
+                        <div id="experience_tab" class="tab-pane fade position-relative">
+                            <h4 class="text-white text-2xl based-in-german-title-tab fw-bold font-Syne">Experience
+                            </h4>
+
+                            <div class="tab-contents tab-contents-experience gap-x-4 gap-y-5">
+
+                                <div
+                                    class="experience-tab-item d-flex flex-wrap flex-column gap-8 justify-content-between">
+                                    <span class="text-sm fw-normal font-Inter leading-tight text-black-text-800">03/216
+                                        –
+                                        Running</span>
+                                    <div>
+                                        <p
+                                            class="dot text-lg fw-normal font-sans leading-7 text-white position-relative">
+                                            Axtra</p>
+                                        <h4 class="fw-bold font-Syne leading-normal text-2xl text-white">Lead
+                                            digital
+                                            marketer
+                                        </h4>
+                                    </div>
+                                </div>
+
+                                <div
+                                    class="experience-tab-item d-flex flex-wrap flex-column gap-8 justify-content-between">
+                                    <span class="text-sm fw-normal font-Inter leading-tight text-black-text-800">03/2008
+                                        – 07/2011</span>
+                                    <div>
+                                        <p
+                                            class="dot text-lg fw-normal font-sans leading-7 text-white position-relative">
+                                            Axtra</p>
+                                        <h4 class="fw-bold font-Syne leading-normal text-2xl text-white">JavaScript
+                                            developer
+                                        </h4>
+                                    </div>
+                                </div>
+
+                                <div
+                                    class="experience-tab-item d-flex flex-wrap flex-column gap-8 justify-content-between">
+                                    <span class="text-sm fw-normal font-Inter leading-tight text-black-text-800">03/2008
+                                        – 07/2011</span>
+                                    <div>
+                                        <p
+                                            class="dot text-lg fw-normal font-sans leading-7 text-white position-relative">
+                                            Axtra</p>
+                                        <h4 class="fw-bold font-Syne leading-normal text-2xl text-white">Product
+                                            designer
+                                        </h4>
+                                    </div>
+                                </div>
+
+                                <div
+                                    class="experience-tab-item d-flex flex-wrap flex-column gap-8 justify-content-between">
+                                    <span class="text-sm fw-normal font-Inter leading-tight text-black-text-800">03/2008
+                                        – 07/2011</span>
+                                    <div>
+                                        <p
+                                            class="dot text-lg fw-normal font-sans leading-7 text-white position-relative">
+                                            Axtra</p>
+                                        <h4 class="fw-bold font-Syne leading-normal text-2xl text-white">UX
+                                            researcher
+                                        </h4>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div id="education_tab" class="tab-pane fade">
+                            <h4 class="text-white text-2xl based-in-german-title-tab fw-bold font-Syne">Education
+                            </h4>
+
+                            <div class="education-tab-contents">
+
+                                <div class="education-tab-item d-flex flex-wrap">
+                                    <span
+                                        class="text-sm fw-normal font-Inter leading-tight text-black-text-800">003/2008
+                                        –
+                                        07/2011</span>
+                                    <div class="flex-1">
+                                        <p
+                                            class="dot text-lg fw-normal font-sans leading-7 text-white position-relative">
+                                            Axtra</p>
+                                        <h4 class="fw-bold font-Syne leading-normal text-2xl text-white">BA Business
+                                            Management
+                                        </h4>
+                                    </div>
+                                </div>
+
+                                <div class="education-tab-item d-flex flex-wrap">
+                                    <span class="text-sm fw-normal font-Inter leading-tight text-black-text-800">03/2008
+                                        – 07/2011</span>
+                                    <div class="flex-1">
+                                        <p
+                                            class="dot text-lg fw-normal font-sans leading-7 text-white position-relative">
+                                            Axtra</p>
+                                        <h4 class="fw-bold font-Syne leading-normal text-2xl text-white">BA Business
+                                            Management
+                                        </h4>
+                                    </div>
+                                </div>
+
+                                <div class="education-tab-item d-flex flex-wrap">
+                                    <span class="text-sm fw-normal font-Inter leading-tight text-black-text-800">03/2008
+                                        – 07/2011</span>
+                                    <div class="flex-1">
+                                        <p
+                                            class="dot text-lg fw-normal font-sans leading-7 text-white position-relative">
+                                            Axtra</p>
+                                        <h4 class="fw-bold font-Syne leading-normal text-2xl text-white">BA Business
+                                            Management
+                                        </h4>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                        <div id="skills_tab" class="tab-pane fade">
+                            <h4 class="text-white text-2xl based-in-german-title-tab fw-bold font-Syne">Skills</h4>
+
+                            <div class="skills-tab-contents">
+
+                                <div class="d-flex flex-wrap gap-4 align-items-start skills-tab-item">
+                                    <!-- <img class="items-start" src="assets/images/skills/vs-code.png" alt="icons"> -->
+                                    <svg class="items-start" width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+
+                                        <g>
+                                            <path
+                                                d="M0.304102 11.1595C0.304102 11.1595 -0.474565 10.5902 0.460101 9.83285L2.6401 7.86218C2.6401 7.86218 3.26277 7.19951 3.92277 7.77685L24.0308 23.1662V30.5449C24.0308 30.5449 24.0214 31.7049 22.5508 31.5769L0.302768 11.1582L0.304102 11.1595Z"
+                                                fill="currentColor" />
+                                            <path
+                                                d="M5.48818 15.9164L0.304176 20.6791C0.304176 20.6791 -0.229158 21.0791 0.304176 21.7951L2.71084 24.0084C2.71084 24.0084 3.28284 24.6284 4.12684 23.9218L9.62151 19.7111L5.48818 15.9164ZM14.5868 15.9551L24.0935 8.61911L24.0308 1.27911C24.0308 1.27911 23.6242 -0.323552 22.2708 0.511114L9.62151 12.1471L14.5868 15.9551Z"
+                                                fill="currentColor" />
+                                            <path
+                                                d="M22.5489 31.5867C23.1009 32.1574 23.7703 31.9707 23.7703 31.9707L31.1783 28.2814C32.1263 27.6281 31.9929 26.8174 31.9929 26.8174V4.78406C31.9929 3.81606 31.0129 3.4814 31.0129 3.4814L24.5916 0.352065C23.1889 -0.523935 22.2703 0.510731 22.2703 0.510731C22.2703 0.510731 23.4516 -0.349269 24.0303 1.27873V30.4121C24.0303 30.6121 23.9876 30.8081 23.9036 30.9854C23.7343 31.3307 23.3676 31.6521 22.4876 31.5187L22.5489 31.5867Z"
+                                                fill="currentColor" />
+                                        </g>
+                                    </svg>
+
+                                    <div class="flex flex-wrap gap-1 flex-1 flex-col">
+                                        <h4 class="fw-bold font-Syne leading-normal text-xl text-white">React JS
+                                        </h4>
+                                        <p class="text-sm fw-normal font-Inter leading-none text-black-text-800">
+                                            (90%)</p>
+                                    </div>
+                                </div>
+
+
+                                <div class="d-flex flex-wrap gap-4 align-items-start skills-tab-item">
+                                    <!-- <img class="items-start" src="assets/images/skills/figma.png" alt="icons"> -->
+                                    <svg class="items-start" width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M11.556 12.5566C11.1038 12.5566 10.6559 12.6457 10.2381 12.8187C9.82024 12.9918 9.44057 13.2455 9.12077 13.5653C8.80096 13.8851 8.54728 14.2648 8.3742 14.6826C8.20112 15.1005 8.11204 15.5483 8.11204 16.0006C8.11204 16.4528 8.20112 16.9007 8.3742 17.3185C8.54728 17.7364 8.80096 18.116 9.12077 18.4359C9.44057 18.7557 9.82024 19.0093 10.2381 19.1824C10.6559 19.3555 11.1038 19.4446 11.556 19.4446H15V16.0699C14.9995 16.0237 14.9995 15.9775 15 15.9312V12.5566H11.556ZM15 10.5566H11.556C10.6425 10.5566 9.7663 10.1937 9.1203 9.54765C8.4743 8.90165 8.11138 8.02549 8.11138 7.1119C8.11138 6.19832 8.4743 5.32216 9.1203 4.67616C9.7663 4.03016 10.6425 3.66724 11.556 3.66724H15V10.5566ZM17 3.66724V10.5566H20.444C21.3459 10.5388 22.2048 10.1681 22.8363 9.52404C23.4679 8.87997 23.8216 8.01393 23.8216 7.1119C23.8216 6.20988 23.4679 5.34383 22.8363 4.69977C22.2048 4.0557 21.3459 3.68498 20.444 3.66724H17ZM20.444 12.5552C19.54 12.5551 18.6722 12.9105 18.0279 13.5446C17.3836 14.1787 17.0144 15.0407 17 15.9446V16.0552C17.0111 16.7339 17.2224 17.3942 17.6075 17.9531C17.9926 18.5121 18.5342 18.9448 19.1644 19.1969C19.7946 19.449 20.4853 19.5092 21.1496 19.3701C21.8139 19.231 22.4224 18.8986 22.8984 18.4148C23.3745 17.931 23.697 17.3173 23.8254 16.6508C23.9538 15.9843 23.8824 15.2947 23.6202 14.6687C23.3579 14.0426 22.9166 13.508 22.3515 13.132C21.7864 12.756 21.1228 12.5553 20.444 12.5552ZM11.556 21.4446C10.8746 21.4443 10.2083 21.6462 9.64156 22.0246C9.0748 22.403 8.63299 22.941 8.37202 23.5705C8.11105 24.2 8.04263 24.8928 8.17542 25.5612C8.3082 26.2297 8.63623 26.8437 9.11802 27.3257C9.59981 27.8076 10.2137 28.1359 10.8821 28.2689C11.5504 28.402 12.2432 28.3338 12.8729 28.0731C13.5025 27.8124 14.0407 27.3708 14.4193 26.8042C14.7979 26.2376 15 25.5714 15 24.8899V21.4446H11.556Z"
+                                            fill="currentColor" />
+                                    </svg>
+
+                                    <div class="flex flex-wrap gap-1 flex-1 flex-col">
+                                        <h4 class="fw-bold font-Syne leading-normal text-xl text-white">Figma</h4>
+                                        <p class="text-sm fw-normal font-Inter leading-none text-black-text-800">
+                                            (70%)</p>
+                                    </div>
+                                </div>
+
+                                <div class="d-flex flex-wrap gap-4 align-items-start skills-tab-item">
+                                    <!-- <img class="items-start" src="assets/images/skills/framer.png" alt="icons"> -->
+                                    <svg class="items-start" width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M16.0006 2.66724C8.6539 2.66724 2.66724 8.6539 2.66724 16.0006C2.66724 23.3472 8.6539 29.3339 16.0006 29.3339C23.3472 29.3339 29.3339 23.3472 29.3339 16.0006C29.3339 8.6539 23.3472 2.66724 16.0006 2.66724ZM4.0139 16.0006C4.0139 14.2672 4.38724 12.6139 5.0539 11.1206L10.7739 26.7872C6.7739 24.8406 4.0139 20.7472 4.0139 16.0006ZM16.0006 27.9872C14.8272 27.9872 13.6939 27.8139 12.6139 27.4939L16.2139 17.0406L19.8939 27.1339C19.9206 27.1872 19.9472 27.2539 19.9739 27.2939C18.7339 27.7472 17.4006 27.9872 16.0006 27.9872ZM17.6539 10.3739C18.3739 10.3339 19.0272 10.2539 19.0272 10.2539C19.6672 10.1739 19.6006 9.22724 18.9472 9.26724C18.9472 9.26724 17.0006 9.4139 15.7472 9.4139C14.5739 9.4139 12.5872 9.26724 12.5872 9.26724C11.9472 9.24057 11.8672 10.2272 12.5206 10.2672C12.5206 10.2672 13.1339 10.3472 13.7739 10.3872L15.6406 15.5072L13.0139 23.3739L8.6539 10.3739C9.3739 10.3472 10.0272 10.2672 10.0272 10.2672C10.6672 10.1872 10.6006 9.24057 9.94724 9.28057C9.94724 9.28057 8.00057 9.42724 6.74724 9.42724C6.52057 9.42724 6.2539 9.42724 5.9739 9.4139C8.1339 6.16057 11.8139 4.0139 16.0006 4.0139C19.1206 4.0139 21.9606 5.20057 24.0939 7.16057C24.0406 7.16057 23.9872 7.14724 23.9339 7.14724C22.7606 7.14724 21.9206 8.1739 21.9206 9.28057C21.9206 10.2672 22.4939 11.1072 23.0939 12.0939C23.5472 12.8939 24.0806 13.9206 24.0806 15.4006C24.0806 16.4272 23.6806 17.6139 23.1739 19.2806L21.9739 23.2806L17.6539 10.3739ZM26.5206 10.2539C28.0182 12.9948 28.3866 16.212 27.5473 19.2204C26.708 22.2289 24.7274 24.7908 22.0272 26.3606L25.6939 15.7739C26.3739 14.0672 26.6006 12.6939 26.6006 11.4806C26.6006 11.0406 26.5739 10.6272 26.5206 10.2539Z"
+                                            fill="currentColor" />
+                                    </svg>
+
+                                    <div class="flex flex-wrap gap-1 flex-1 flex-col">
+                                        <h4 class="fw-bold font-Syne leading-normal text-xl text-white">WordPress
+                                        </h4>
+                                        <p class="text-sm fw-normal font-Inter leading-none text-black-text-800">
+                                            (80%)</p>
+                                    </div>
+                                </div>
+
+                                <div class="d-flex flex-wrap gap-4 align-items-start skills-tab-item">
+                                    <!-- <img class="items-start" src="assets/images/skills/framer.png" alt="icons"> -->
+                                    <svg class="items-start" width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M16 1.66724L25 10.5166V2.66724L16 1.66724ZM16 1.66724L7.93333 11.0006H24.0667L16 1.66724ZM16 1.66724L7 2.66724V10.5166L16 1.66724ZM7 2.66724L0 12.0006L5.888 11.0939L7 2.66724ZM0 12.0006L15.9453 30.2712L15.956 30.2526L5.924 12.0006H0ZM25 2.66724L26.112 11.0939L32 12.0006L25 2.66724ZM32 12.0006H25.992L15.9613 30.2539L16 30.3339L32 12.0006ZM16 30.3339L15.9587 30.2579L15.948 30.2739L16 30.3339ZM7.248 12.0006L15.9587 30.2486L24.752 12.0006H7.248Z"
+                                            fill="currentColor" />
+                                    </svg>
+
+                                    <div class="flex flex-wrap gap-1 flex-1 flex-col">
+                                        <h4 class="fw-bold font-Syne leading-normal text-xl text-white">Sketch</h4>
+                                        <p class="text-sm fw-normal font-Inter leading-none text-black-text-800">
+                                            (80%)</p>
+                                    </div>
+                                </div>
+
+                                <div class="d-flex flex-wrap gap-4 align-items-start skills-tab-item">
+                                    <!-- <img class="items-start" src="assets/images/skills/framer.png" alt="icons"> -->
+                                    <svg class="items-start" width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M16.0006 2.66724C8.6539 2.66724 2.66724 8.6539 2.66724 16.0006C2.66724 23.3472 8.6539 29.3339 16.0006 29.3339C23.3472 29.3339 29.3339 23.3472 29.3339 16.0006C29.3339 8.6539 23.3472 2.66724 16.0006 2.66724ZM4.0139 16.0006C4.0139 14.2672 4.38724 12.6139 5.0539 11.1206L10.7739 26.7872C6.7739 24.8406 4.0139 20.7472 4.0139 16.0006ZM16.0006 27.9872C14.8272 27.9872 13.6939 27.8139 12.6139 27.4939L16.2139 17.0406L19.8939 27.1339C19.9206 27.1872 19.9472 27.2539 19.9739 27.2939C18.7339 27.7472 17.4006 27.9872 16.0006 27.9872ZM17.6539 10.3739C18.3739 10.3339 19.0272 10.2539 19.0272 10.2539C19.6672 10.1739 19.6006 9.22724 18.9472 9.26724C18.9472 9.26724 17.0006 9.4139 15.7472 9.4139C14.5739 9.4139 12.5872 9.26724 12.5872 9.26724C11.9472 9.24057 11.8672 10.2272 12.5206 10.2672C12.5206 10.2672 13.1339 10.3472 13.7739 10.3872L15.6406 15.5072L13.0139 23.3739L8.6539 10.3739C9.3739 10.3472 10.0272 10.2672 10.0272 10.2672C10.6672 10.1872 10.6006 9.24057 9.94724 9.28057C9.94724 9.28057 8.00057 9.42724 6.74724 9.42724C6.52057 9.42724 6.2539 9.42724 5.9739 9.4139C8.1339 6.16057 11.8139 4.0139 16.0006 4.0139C19.1206 4.0139 21.9606 5.20057 24.0939 7.16057C24.0406 7.16057 23.9872 7.14724 23.9339 7.14724C22.7606 7.14724 21.9206 8.1739 21.9206 9.28057C21.9206 10.2672 22.4939 11.1072 23.0939 12.0939C23.5472 12.8939 24.0806 13.9206 24.0806 15.4006C24.0806 16.4272 23.6806 17.6139 23.1739 19.2806L21.9739 23.2806L17.6539 10.3739ZM26.5206 10.2539C28.0182 12.9948 28.3866 16.212 27.5473 19.2204C26.708 22.2289 24.7274 24.7908 22.0272 26.3606L25.6939 15.7739C26.3739 14.0672 26.6006 12.6939 26.6006 11.4806C26.6006 11.0406 26.5739 10.6272 26.5206 10.2539Z"
+                                            fill="currentColor" />
+                                    </svg>
+                                    <div class="flex flex-wrap gap-1 flex-1 flex-col">
+                                        <h4 class="fw-bold font-Syne leading-normal text-xl text-white">WordPress
+                                        </h4>
+                                        <p class="text-sm fw-normal font-Inter leading-none text-black-text-800">
+                                            (40%)</p>
+                                    </div>
+                                </div>
+
+                                <div class="d-flex flex-wrap gap-4 align-items-start skills-tab-item">
+                                    <!-- <img class="items-start" src="assets/images/skills/framer.png" alt="icons"> -->
+                                    <svg class="items-start" width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M16 1.66724L25 10.5166V2.66724L16 1.66724ZM16 1.66724L7.93333 11.0006H24.0667L16 1.66724ZM16 1.66724L7 2.66724V10.5166L16 1.66724ZM7 2.66724L0 12.0006L5.888 11.0939L7 2.66724ZM0 12.0006L15.9453 30.2712L15.956 30.2526L5.924 12.0006H0ZM25 2.66724L26.112 11.0939L32 12.0006L25 2.66724ZM32 12.0006H25.992L15.9613 30.2539L16 30.3339L32 12.0006ZM16 30.3339L15.9587 30.2579L15.948 30.2739L16 30.3339ZM7.248 12.0006L15.9587 30.2486L24.752 12.0006H7.248Z"
+                                            fill="currentColor" />
+                                    </svg>
+                                    <div class="flex flex-wrap gap-1 flex-1 flex-col">
+                                        <h4 class="fw-bold font-Syne leading-normal text-xl text-white">Sketch</h4>
+                                        <p class="text-sm fw-normal font-Inter leading-none text-black-text-800">
+                                            (60%)</p>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <span class="d-flex justify-content-end mt-14 -mr-3">
+                    <svg width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M27.5625 0C27.5625 23.1273 9.1875 28.5455 0 27.8182C16.875 31.0909 25.3125 34.3636 27 54C27 40.3636 34.875 30.5455 54 27.8182C46.125 28.3636 29.8125 24 27.5625 0Z"
+                            fill="#FFB646" />
+                    </svg>
+                </span>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- tabs end -->
+
+
+    <!-- Portfolio Section Start -->
+    <section class="bg-secondary py-120">
+        <div class="container">
+            <div class="row">
+                <div class="col-12" data-aos="fade-up" data-aos-delay="400">
+                    <div class="fw-bold font-Syne text-center leading-none d-flex flex-wrap flex-column gap-y-2 mb-10">
+                        <span class="text-warning text-xl">Portfolio</span>
+                        <h3 class="section-title text-dark">
+                            My recent <span class="position-relative circle-shape portfolio-shape">w</span>ork
+                        </h3>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6" data-aos="fade-up" data-aos-delay="600">
+                    <div class="rounded-20 overflow-hidden mb-6">
+                        <img src="assets/images/projects/project1.png" alt="project1">
+                    </div>
+                    <div class="d-flex flex-wrap flex-column gap-3">
+                        <div class="d-flex flex-wrap gap-2">
+                            <a class="text-xs fw-medium font-Inter leading-none px-4 rounded-40 portfolio-tag-link"
+                                href="projects.html">APP</a>
+                            <a class="text-xs fw-medium font-Inter leading-none px-4 rounded-40 portfolio-tag-link"
+                                href="projects.html">DEVELOPMENT</a>
+
+                        </div>
+                        <div
+                            class="d-flex flex-wrap align-items-center justify-content-between text-dark portfolio-title">
+                            <h4 class="fw-bold font-Syne text-center leading-10 portfolio-link">
+                                <a class="transition-all" href="project-details.html">Basinik Finance App</a>
+                            </h4>
+                            <a class="animate-arrow-up" href="project-details.html">
+                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M30.8839 9.11612C31.372 9.60427 31.372 10.3957 30.8839 10.8839L10.8839 30.8839C10.3957 31.372 9.60427 31.372 9.11612 30.8839C8.62796 30.3957 8.62796 29.6043 9.11612 29.1161L29.1161 9.11612C29.6043 8.62796 30.3957 8.62796 30.8839 9.11612Z"
+                                        fill="currentColor" fill-opacity="0.9" />
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M12.5 10C12.5 9.30964 13.0596 8.75 13.75 8.75H30C30.6904 8.75 31.25 9.30964 31.25 10V26.25C31.25 26.9404 30.6904 27.5 30 27.5C29.3096 27.5 28.75 26.9404 28.75 26.25V11.25H13.75C13.0596 11.25 12.5 10.6904 12.5 10Z"
+                                        fill="currentColor" fill-opacity="0.9" />
+                                </svg>
+
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6" data-aos="fade-up" data-aos-delay="800">
+                    <div class="rounded-20 overflow-hidden mb-6">
+                        <img src="assets/images/projects/project2.png" alt="project1">
+                    </div>
+                    <div class="d-flex flex-wrap flex-column gap-3">
+                        <div class="d-flex flex-wrap gap-2">
+                            <a class="text-xs fw-medium font-Inter leading-none px-4 rounded-40 portfolio-tag-link"
+                                href="projects.html">APP</a>
+                            <a class="text-xs fw-medium font-Inter leading-none px-4 rounded-40 portfolio-tag-link"
+                                href="projects.html">DEVELOPMENT</a>
+
+                        </div>
+                        <div
+                            class="d-flex flex-wrap align-items-center justify-content-between text-dark portfolio-title">
+                            <h4 class="fw-bold font-Syne text-center leading-10 portfolio-link">
+                                <a class="transition-all" href="project-details.html">Oxilex Dashboard design</a>
+                            </h4>
+                            <a class="animate-arrow-up" href="project-details.html">
+                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M30.8839 9.11612C31.372 9.60427 31.372 10.3957 30.8839 10.8839L10.8839 30.8839C10.3957 31.372 9.60427 31.372 9.11612 30.8839C8.62796 30.3957 8.62796 29.6043 9.11612 29.1161L29.1161 9.11612C29.6043 8.62796 30.3957 8.62796 30.8839 9.11612Z"
+                                        fill="currentColor" fill-opacity="0.9" />
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M12.5 10C12.5 9.30964 13.0596 8.75 13.75 8.75H30C30.6904 8.75 31.25 9.30964 31.25 10V26.25C31.25 26.9404 30.6904 27.5 30 27.5C29.3096 27.5 28.75 26.9404 28.75 26.25V11.25H13.75C13.0596 11.25 12.5 10.6904 12.5 10Z"
+                                        fill="currentColor" fill-opacity="0.9" />
+                                </svg>
+
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-12 mt-12" data-aos="fade-up" data-aos-delay="600">
+                <div class="d-flex">
+                    <a href="projects.html"
+                        class="d-flex align-items-center justify-content-center flex-wrap btn-primary flex-grow-1">
+                        View All Project
+                        <span class="inline-block ml-3 animate-arrow-up">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7 17L17 7" stroke="currentColor" stroke-opacity="0.9" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path d="M7 7H17V17" stroke="currentColor" stroke-opacity="0.9" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Portfolio Section End -->
+
+
+
+
+    <!-- Testimonial section Start -->
+    <section class="bg-dark py-120 testimonial" data-aos="fade-up" data-aos-delay="400">
+        <div class="testimonial-space-left px-8">
+            <div class="d-flex flex-column testimonial-gap flex-xl-row">
+
+                <div
+                    class="fw-bold font-Syne leading-none d-flex flex-wrap flex-column gap-y-2 mb-10 testimonial-title-section">
+                    <span class="text-warning text-xl">Testimonial</span>
+                    <h3 class="d-inline-block section-title text-white">
+                        <span class="position-relative circle-shape testimonial-shape">Cl</span>ient
+                        <br class="hidden d-xl-inline-block" /> feedback
+                    </h3>
+                </div>
+
+
+                <div class="swiper w-100">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <span class="d-inline-block qotation-icon">
+                                <svg width="48" height="48" viewBox="0 0 48 48" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M21.75 13.5L21.75 30C21.7475 32.3862 20.7985 34.6739 19.1112 36.3612C17.4239 38.0485 15.1362 38.9975 12.75 39C12.3522 39 11.9706 38.842 11.6893 38.5607C11.408 38.2794 11.25 37.8978 11.25 37.5C11.25 37.1022 11.408 36.7206 11.6893 36.4393C11.9706 36.158 12.3522 36 12.75 36C14.3413 36 15.8674 35.3679 16.9926 34.2426C18.1179 33.1174 18.75 31.5913 18.75 30V28.5H7.5C6.70435 28.5 5.94129 28.1839 5.37868 27.6213C4.81607 27.0587 4.5 26.2956 4.5 25.5L4.5 13.5C4.5 12.7044 4.81607 11.9413 5.37868 11.3787C5.94129 10.8161 6.70435 10.5 7.5 10.5L18.75 10.5C19.5456 10.5 20.3087 10.8161 20.8713 11.3787C21.4339 11.9413 21.75 12.7044 21.75 13.5ZM40.5 10.5H29.25C28.4544 10.5 27.6913 10.8161 27.1287 11.3787C26.5661 11.9413 26.25 12.7044 26.25 13.5L26.25 25.5C26.25 26.2956 26.5661 27.0587 27.1287 27.6213C27.6913 28.1839 28.4544 28.5 29.25 28.5H40.5V30C40.5 31.5913 39.8679 33.1174 38.7426 34.2426C37.6174 35.3679 36.0913 36 34.5 36C34.1022 36 33.7206 36.158 33.4393 36.4393C33.158 36.7206 33 37.1022 33 37.5C33 37.8978 33.158 38.2794 33.4393 38.5607C33.7206 38.842 34.1022 39 34.5 39C36.8862 38.9975 39.1739 38.0485 40.8612 36.3612C42.5485 34.6739 43.4975 32.3862 43.5 30V13.5C43.5 12.7044 43.1839 11.9413 42.6213 11.3787C42.0587 10.8161 41.2957 10.5 40.5 10.5Z"
+                                        fill="white" />
+                                </svg>
+
+                            </span>
+                            <p class="testimonial-texts fw-bold font-Syne">
+                                “Energistically
+                                build
+                                alternative scenarios
+                                via cross-unit applications. Credibly exploit
+                                one-to-one strategic theme areas and clicks-and-mortar services”</p>
+                            <h4
+                                class="d-flex flex-wrap align-items-center gap-4 text-white testimonial-qotation-name font-Syne">
+                                <span>
+                                    <svg width="48" height="2" viewBox="0 0 48 2" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0 1H48" stroke="#fff" />
+                                    </svg>
+                                </span> Jhon Smith
+                            </h4>
+                        </div>
+                        <div class="swiper-slide">
+                            <span class="d-inline-block qotation-icon">
+                                <svg width="48" height="48" viewBox="0 0 48 48" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M21.75 13.5L21.75 30C21.7475 32.3862 20.7985 34.6739 19.1112 36.3612C17.4239 38.0485 15.1362 38.9975 12.75 39C12.3522 39 11.9706 38.842 11.6893 38.5607C11.408 38.2794 11.25 37.8978 11.25 37.5C11.25 37.1022 11.408 36.7206 11.6893 36.4393C11.9706 36.158 12.3522 36 12.75 36C14.3413 36 15.8674 35.3679 16.9926 34.2426C18.1179 33.1174 18.75 31.5913 18.75 30V28.5H7.5C6.70435 28.5 5.94129 28.1839 5.37868 27.6213C4.81607 27.0587 4.5 26.2956 4.5 25.5L4.5 13.5C4.5 12.7044 4.81607 11.9413 5.37868 11.3787C5.94129 10.8161 6.70435 10.5 7.5 10.5L18.75 10.5C19.5456 10.5 20.3087 10.8161 20.8713 11.3787C21.4339 11.9413 21.75 12.7044 21.75 13.5ZM40.5 10.5H29.25C28.4544 10.5 27.6913 10.8161 27.1287 11.3787C26.5661 11.9413 26.25 12.7044 26.25 13.5L26.25 25.5C26.25 26.2956 26.5661 27.0587 27.1287 27.6213C27.6913 28.1839 28.4544 28.5 29.25 28.5H40.5V30C40.5 31.5913 39.8679 33.1174 38.7426 34.2426C37.6174 35.3679 36.0913 36 34.5 36C34.1022 36 33.7206 36.158 33.4393 36.4393C33.158 36.7206 33 37.1022 33 37.5C33 37.8978 33.158 38.2794 33.4393 38.5607C33.7206 38.842 34.1022 39 34.5 39C36.8862 38.9975 39.1739 38.0485 40.8612 36.3612C42.5485 34.6739 43.4975 32.3862 43.5 30V13.5C43.5 12.7044 43.1839 11.9413 42.6213 11.3787C42.0587 10.8161 41.2957 10.5 40.5 10.5Z"
+                                        fill="white" />
+                                </svg>
+                            </span>
+                            <p class="testimonial-texts fw-bold font-Syne">
+                                “Energistically
+                                build
+                                “Unleash energistically build alternative scenarios via cross-unit build
+                                efficient
+                                initiatives for distinctive vortals. Synergistically strategize via adaptiv“
+                            </p>
+                            <h4
+                                class="d-flex flex-wrap align-items-center gap-4 text-white testimonial-qotation-name font-Syne">
+                                <span>
+                                    <svg width="48" height="2" viewBox="0 0 48 2" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0 1H48" stroke="#fff" />
+                                    </svg>
+                                </span> Jhon Smith
+                            </h4>
+                        </div>
+                        <div class="swiper-slide">
+                            <span class="d-inline-block qotation-icon">
+                                <svg width="48" height="48" viewBox="0 0 48 48" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M21.75 13.5L21.75 30C21.7475 32.3862 20.7985 34.6739 19.1112 36.3612C17.4239 38.0485 15.1362 38.9975 12.75 39C12.3522 39 11.9706 38.842 11.6893 38.5607C11.408 38.2794 11.25 37.8978 11.25 37.5C11.25 37.1022 11.408 36.7206 11.6893 36.4393C11.9706 36.158 12.3522 36 12.75 36C14.3413 36 15.8674 35.3679 16.9926 34.2426C18.1179 33.1174 18.75 31.5913 18.75 30V28.5H7.5C6.70435 28.5 5.94129 28.1839 5.37868 27.6213C4.81607 27.0587 4.5 26.2956 4.5 25.5L4.5 13.5C4.5 12.7044 4.81607 11.9413 5.37868 11.3787C5.94129 10.8161 6.70435 10.5 7.5 10.5L18.75 10.5C19.5456 10.5 20.3087 10.8161 20.8713 11.3787C21.4339 11.9413 21.75 12.7044 21.75 13.5ZM40.5 10.5H29.25C28.4544 10.5 27.6913 10.8161 27.1287 11.3787C26.5661 11.9413 26.25 12.7044 26.25 13.5L26.25 25.5C26.25 26.2956 26.5661 27.0587 27.1287 27.6213C27.6913 28.1839 28.4544 28.5 29.25 28.5H40.5V30C40.5 31.5913 39.8679 33.1174 38.7426 34.2426C37.6174 35.3679 36.0913 36 34.5 36C34.1022 36 33.7206 36.158 33.4393 36.4393C33.158 36.7206 33 37.1022 33 37.5C33 37.8978 33.158 38.2794 33.4393 38.5607C33.7206 38.842 34.1022 39 34.5 39C36.8862 38.9975 39.1739 38.0485 40.8612 36.3612C42.5485 34.6739 43.4975 32.3862 43.5 30V13.5C43.5 12.7044 43.1839 11.9413 42.6213 11.3787C42.0587 10.8161 41.2957 10.5 40.5 10.5Z"
+                                        fill="white" />
+                                </svg>
+                                <p class="testimonial-texts fw-bold font-Syne">
+                                    “Energistically
+                                    build
+                                    “Aliquam vehicula nunc facilisis tincidunt feugiat. Pellentesque sed viverra
+                                    nisi. Fusce
+                                    et
+                                    laoreet augue. Quisque pretium, ligula lectus semper urna. Aliquam vehicula.”
+
+                                </p>
+                                <h4
+                                    class="d-flex flex-wrap align-items-center gap-4 text-white testimonial-qotation-name font-Syne">
+                                    <span><svg width="48" height="2" viewBox="0 0 48 2" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M0 1H48" stroke="#fff" />
+                                        </svg>
+                                    </span> Jhon Smith
+                                </h4>
+                        </div>
+                        <div class="swiper-slide">
+                            <span class="d-inline-block qotation-icon">
+                                <svg width="48" height="48" viewBox="0 0 48 48" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M21.75 13.5L21.75 30C21.7475 32.3862 20.7985 34.6739 19.1112 36.3612C17.4239 38.0485 15.1362 38.9975 12.75 39C12.3522 39 11.9706 38.842 11.6893 38.5607C11.408 38.2794 11.25 37.8978 11.25 37.5C11.25 37.1022 11.408 36.7206 11.6893 36.4393C11.9706 36.158 12.3522 36 12.75 36C14.3413 36 15.8674 35.3679 16.9926 34.2426C18.1179 33.1174 18.75 31.5913 18.75 30V28.5H7.5C6.70435 28.5 5.94129 28.1839 5.37868 27.6213C4.81607 27.0587 4.5 26.2956 4.5 25.5L4.5 13.5C4.5 12.7044 4.81607 11.9413 5.37868 11.3787C5.94129 10.8161 6.70435 10.5 7.5 10.5L18.75 10.5C19.5456 10.5 20.3087 10.8161 20.8713 11.3787C21.4339 11.9413 21.75 12.7044 21.75 13.5ZM40.5 10.5H29.25C28.4544 10.5 27.6913 10.8161 27.1287 11.3787C26.5661 11.9413 26.25 12.7044 26.25 13.5L26.25 25.5C26.25 26.2956 26.5661 27.0587 27.1287 27.6213C27.6913 28.1839 28.4544 28.5 29.25 28.5H40.5V30C40.5 31.5913 39.8679 33.1174 38.7426 34.2426C37.6174 35.3679 36.0913 36 34.5 36C34.1022 36 33.7206 36.158 33.4393 36.4393C33.158 36.7206 33 37.1022 33 37.5C33 37.8978 33.158 38.2794 33.4393 38.5607C33.7206 38.842 34.1022 39 34.5 39C36.8862 38.9975 39.1739 38.0485 40.8612 36.3612C42.5485 34.6739 43.4975 32.3862 43.5 30V13.5C43.5 12.7044 43.1839 11.9413 42.6213 11.3787C42.0587 10.8161 41.2957 10.5 40.5 10.5Z"
+                                        fill="white" />
+                                </svg>
+                            </span>
+                            <p class="testimonial-texts fw-bold font-Syne">
+                                “Energistically
+                                build
+                                “Aliquam vehicula nunc facilisis tincidunt feugiat. Pellentesque sed viverra
+                                nisi. Fusce
+                                et
+                                laoreet augue. Quisque pretium, ligula lectus semper urna. Aliquam vehicula.”
+
+                            </p>
+                            <h4
+                                class="d-flex flex-wrap align-items-center gap-4 text-white testimonial-qotation-name font-Syne">
+                                <span><svg width="48" height="2" viewBox="0 0 48 2" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0 1H48" stroke="#fff" />
+                                    </svg>
+                                </span> Jhon Smith
+                            </h4>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Testimonial section End -->
+
+
+
+
+    <!-- Footer Start -->
+    <footer class="footer bg-black">
+        <div class="container">
+            <div class="overflow-x-hidden" data-aos="flip-down" data-aos-delay="500">
+                <div class="footer-grid">
+                    <div class="pt-12">
+                        <h3 class="section-title text-white mb-0"><span
+                                class="position-relative circle-shape footer-shape">Le</span>
+                            t’s work together</h3>
+                        <div class="d-flex flex-wrap align-items-center mt-10">
+                            <div class="footer-social">
+                                <ul
+                                    class="d-flex flex-wrap gap-x-4 align-items-center list-unstyled p-0 footer-social-links">
+
+                                    <li><a href="#" class="text-white footer-social-link"><svg width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M6.94043 5.00002C6.94017 5.53046 6.7292 6.03906 6.35394 6.41394C5.97868 6.78883 5.46986 6.99929 4.93943 6.99902C4.409 6.99876 3.90039 6.78779 3.52551 6.41253C3.15062 6.03727 2.94016 5.52846 2.94043 4.99802C2.9407 4.46759 3.15166 3.95899 3.52692 3.5841C3.90218 3.20922 4.411 2.99876 4.94143 2.99902C5.47186 2.99929 5.98047 3.21026 6.35535 3.58552C6.73024 3.96078 6.9407 4.46959 6.94043 5.00002ZM7.00043 8.48002H3.00043V21H7.00043V8.48002ZM13.3204 8.48002H9.34043V21H13.2804V14.43C13.2804 10.77 18.0504 10.43 18.0504 14.43V21H22.0004V13.07C22.0004 6.90002 14.9404 7.13002 13.2804 10.16L13.3204 8.48002Z"
+                                                    fill="currentColor" fill-opacity="0.9"></path>
+                                            </svg>
+                                        </a></li>
+
+                                    <li><a href="#" class="text-white footer-social-link"><svg width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12.001 2C6.47598 2 2.00098 6.475 2.00098 12C1.99977 14.0992 2.65958 16.1454 3.88679 17.8484C5.114 19.5515 6.84631 20.8249 8.83798 21.488C9.33798 21.575 9.52598 21.275 9.52598 21.012C9.52598 20.775 9.51298 19.988 9.51298 19.15C7.00098 19.613 6.35098 18.538 6.15098 17.975C6.03798 17.687 5.55098 16.8 5.12598 16.562C4.77598 16.375 4.27598 15.912 5.11298 15.9C5.90098 15.887 6.46298 16.625 6.65098 16.925C7.55098 18.437 8.98798 18.012 9.56298 17.75C9.65098 17.1 9.91298 16.663 10.201 16.413C7.97598 16.163 5.65098 15.3 5.65098 11.475C5.65098 10.387 6.03798 9.488 6.67598 8.788C6.57598 8.538 6.22598 7.513 6.77598 6.138C6.77598 6.138 7.61298 5.875 9.52598 7.162C10.3401 6.9364 11.1812 6.82302 12.026 6.825C12.876 6.825 13.726 6.937 14.526 7.162C16.439 5.862 17.276 6.138 17.276 6.138C17.826 7.513 17.476 8.538 17.376 8.788C18.013 9.488 18.401 10.375 18.401 11.475C18.401 15.313 16.064 16.163 13.839 16.413C14.201 16.725 14.514 17.325 14.514 18.263C14.514 19.6 14.501 20.675 14.501 21.013C14.501 21.275 14.689 21.587 15.189 21.487C17.1738 20.8166 18.8985 19.5408 20.1203 17.8389C21.3421 16.1371 21.9995 14.095 22 12C22 6.475 17.525 2 12 2H12.001Z"
+                                                    fill="currentColor" fill-opacity="0.9"></path>
+                                            </svg>
+                                        </a></li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="d-flex flex-column justify-content-between service-contact-card-footer">
+                        <h3 class="text-xl fw-bold font-Syne text-white">Looking for a iOS Deleloper?</h3>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <p class="text-2xl font-Syne leading-none text-warning">pchirag30124@gmail.com</p>
+                            <a href="#" class="text-white animate-arrow-up">
+                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M11.6667 28.3334L28.3334 11.6667" stroke="currentColor" stroke-width="1.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M11.6667 11.6667H28.3334V28.3334" stroke="currentColor" stroke-width="1.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-column justify-content-between service-contact-card-footer">
+                        <h3 class="text-xl fw-bold font-Syne text-white">Want a more in-depth look at my history?
+                        </h3>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <p class="text-2xl fw-bold font-Syne leading-none text-warning">+1(469)936-0057</p>
+                            <a href="#" class="text-white animate-arrow-up">
+                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M11.6667 28.3334L28.3334 11.6667" stroke="currentColor" stroke-width="1.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M11.6667 11.6667H28.3334V28.3334" stroke="currentColor" stroke-width="1.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="py-72">
+                            <h1 class="text-white hero-title font-Syne fw-bold position-relative z-1"
+                                data-aos="fade-right" data-aos-delay="400" fill="#FFE9D9">
+                                Chirag Patel
+                            </h1>
+
+                        </div>
+                    </div>
+                </div>
+                <div class=" pt-6 copyright">
+                    <div class="row">
+
+                        <div class="col-12 col-sm-8 order-last order-sm-first">
+                            <p class="text-white text-lg fw-normal font-sans leading-7">©2025 Chirag Patel,
+                                All Rights
+                                Reserved
+                            </p>
+                        </div>
+                        <div class="col-12 col-sm-4 order-first order-sm-last">
+                            <div class="d-flex justify-content-end mb-2 mb-sm-0">
+                                <a id="scrollUp" class="d-flex flex-wrap align-items-center gap-2" href="#"
+                                    aria-label="scroll up">
+                                    <span class="text-white text-lg fw-normal font-sans leading-7 transition-all">
+                                        Back to Top</span>
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M12 19V5" stroke="#FFB646" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path d="M19 12L12 5L5 12" stroke="#FFB646" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+    </div>
+
+
+    <!-- JS Vendor, Plugins & Activation Script Files -->
+
+    <!-- Vendors JS -->
+    <script src="assets/js/vendor/modernizr-3.11.7.min.js"></script>
+    <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/vendor/jquery-migrate-3.3.2.min.js"></script>
+    <script src="assets/js/vendor/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugins JS -->
+    <script src="assets/js/plugins/aos.js">
+    </script>
+    <script src="assets/js/plugins/swiper-bundle.min.js">
+    </script>
+    <script src="assets/js/plugins/jquery.waypoints.js">
+    </script>
+    <script src="assets/js/plugins/jquery.counterup.min.js">
+    </script>
+
+    <!-- Activation JS -->
+    <script src="assets/js/main.js"></script>
 </body>
+
 </html>
